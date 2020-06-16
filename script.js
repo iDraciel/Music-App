@@ -4,7 +4,7 @@ const songs = [
     "bazanji-bow-down-feat-just-juice.mp3",
   "EPIC ROCK''Real Good Feeling'' by Oh The Larceny.mp3",
   "Firse Machayenge - Emiway Bantai.mp3",
-  "FOALS - The Runner.mp3"
+  "FOALS - The Runner .mp3"
 ]
 
 const createSongList = () => {
