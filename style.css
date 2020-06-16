@@ -58,6 +58,11 @@ li:hover, svg:hover{
   background:#bdc3c7 ;
   padding: 1.5em;
 }
+@media screen and (max-width:600px){
+  .cover {
+    padding: 1rem;
+  }
+}
 progress{
   width:80%;
   margin:10px;
