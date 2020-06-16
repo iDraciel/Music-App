@@ -28,7 +28,7 @@ songList.onclick= (e) => {
   const clickedItem = e.target
   const source = document.getElementById('source')
   source.src = clickedItem.innerText
-document.getElementById('currentlyPlayingSong').innerText = "Currently Playing: "
+//document.getElementById('currentlyPlayingSong').innerText = "Currently Playing: "
 document.getElementById('currentSong').innerText = clickedItem.innerText
 
   player.load()
