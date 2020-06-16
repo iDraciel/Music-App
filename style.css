@@ -48,7 +48,7 @@ li:hover, svg:hover{
 }
 @media screen and (max-width:600px){
   li{
-    padding:8px;
+    padding:10px;
   }
 }
 
