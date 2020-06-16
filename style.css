@@ -1,0 +1,61 @@
+body{
+  background: radial-gradient(#2ecc71, #16a085);
+  font-family: 'Inter',sans-serif;
+  font-weight: 700;
+  font-size:15;
+  width:50%;
+  margin:30px auto;
+  padding: 30px;
+  text-align: center;
+  min-height: 50vh;
+  overflow: hidden;
+}
+.box{
+  background: #8e44ad;
+  width: 400px;
+   height: 90%;
+   padding: 1.5rem 1rem;
+   border-radius: 15px;
+ /*   margin: 0 auto; */
+   box-shadow: 2px 4px 18px #000000;
+    position: absolute;
+   margin:auto;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+@media screen and (max-width:600px){
+  body{
+    font-size: 14px;
+  }
+  .box{
+    width: 300px;
+    height:88%;
+  }
+}
+
+#songList{
+  background: #bdc3c7;
+  border-radius: 10px;
+  text-align:left;
+}
+li{
+  padding: 15px;
+}
+li:hover, svg:hover{
+  cursor:pointer;
+}
+
+
+.cover {
+  border: 1px lightgrey solid;
+  border-radius: 10px;
+  background:#bdc3c7 ;
+  padding: 1.5em;
+}
+progress{
+  width:80%;
+  margin:10px;
+  color:#2c3e50;
+}
